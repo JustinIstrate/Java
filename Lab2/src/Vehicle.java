@@ -56,6 +56,3 @@ public class Vehicle {
         return (aux.clients == clients && aux.vehicleName == vehicleName && aux.depotPlace == depotPlace);
     }*/
 }
-/*class Truck extends Vehicle{
-
-}/*
