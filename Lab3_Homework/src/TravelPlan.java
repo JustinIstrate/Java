@@ -16,8 +16,10 @@ public class TravelPlan {
     }
 
     public void printTravelPlan() {
+        List<Map.Entry<String, Attraction>> sortedEntries = new ArrayList<>(travelPlan.entrySet());
+        Collections.sort(sortedEntries, Comparator.comparing(Map.Entry::getKey));
         System.out.println("Travel Plan: ");
-        for (Map.Entry<String, Attraction> entry : travelPlan.entrySet()) {
+        for (Map.Entry<String, Attraction> entry : sortedEntries) {
             System.out.println(entry.getKey() + " - " + entry.getValue().getAttractionName());
         }
     }
