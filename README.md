@@ -3,6 +3,9 @@ Input: java Main 10 100 13
 Output: 
 13 23 32 44  
 Running time: 42100  
+//////////////////////////////////////////////////////////////////////////////////   
+
+  
 
 Lab 2 Compulsory :   
 Output :   
@@ -15,6 +18,10 @@ false
 
 Lab 2 Homework: No output because the homework is incomplete  
 
+/////////////////////////////////////////////////////////////////////////////////////////    
+
+
+    
 Lab3 compulsory Output:  
 Trip{cityName='San-Francisco', periodOfTime='May 2024', attractions=[Church{attractionName='Church of Catholics', attractionDescription='nice', image='image', openDays=[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday], openHours='From 8am to 9pm', fee=0.0},  
 Statue{attractionName='Statue of San-Francisco', attractionDescription='very big very nice', image='image', openDays=[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday], openHours='all day', fee=0.0},   Concert{attractionName='Untold', attractionDescription='a lot of big artists coming', image='image', openDays=[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday], openHours='From 5pm to 2am next day', fee=150.0}]}  
@@ -28,3 +35,20 @@ Travel Plan:
 2024-03-08 - Statue of San-Francisco  
 2024-03-12 - Church of Catholics     
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////  
+
+Lab4 Compulsory Output:   
+Drivers sorted by age:   
+Person{Name='Justin', Age=24, Destination='Destination4', isDriver=true}  
+Person{Name='Gigel', Age=26, Destination='Destination2', isDriver=false}  
+Person{Name='Dani sefu', Age=42, Destination='Destination4', isDriver=true}  
+Person{Name='Justin', Age=44, Destination='Destination2', isDriver=false}  
+Person{Name='Serby', Age=50, Destination='Destination3', isDriver=false}  
+Person{Name='Adrian', Age=57, Destination='Destination2', isDriver=true}  
+Person{Name='Adrian', Age=69, Destination='Destination2', isDriver=true}  
+Person{Name='John', Age=73, Destination='Destination5', isDriver=true}  
+  
+Passengers sorted by name:  
+Person{Name='Gigel', Age=14, Destination='Destination2', isDriver=false}  
+Person{Name='John', Age=14, Destination='Destination2', isDriver=true}  
+  
