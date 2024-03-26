@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Drivers sorted by age:");
         driversSortedByAge.forEach(System.out::println);
 
-        TreeSet<Person> passengersSortedByName = carpoolProblem.getPassengersSortedByName();
+        Set<Person> passengersSortedByName = carpoolProblem.getPassengersSortedByName();
         System.out.println("\nPassengers sorted by name:");
         passengersSortedByName.forEach(System.out::println);
     }

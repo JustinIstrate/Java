@@ -16,7 +16,7 @@ public class CarSharing {
                 .collect(Collectors.toCollection(LinkedList::new));
     }
 
-    public TreeSet<Person> getPassengersSortedByName() {
+    public Set<Person> getPassengersSortedByName() {
         Comparator<Person> byNameComparator = Comparator.comparing(Person::getPersonName);
         return persons.stream()
                 .filter(person -> person.getPersonAge()<20)
