@@ -82,5 +82,5 @@ Exiting...
 So the view works,it displays me the files i give as an input  
 export also works,this is the content of the json(you can also find it in the repo,it s named repository.json):  
 [".gitignore","homework.docx","homework.pdf","landscape.jpg","pom.xml","report.html","report_template.ftl","repository.json","~$mework.docx"]  
-report works,you can check the report.html in the repo.  
+report works,you can check the reportHTMLscreenshot.png in the repo.  
 
