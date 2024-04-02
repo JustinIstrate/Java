@@ -68,3 +68,16 @@ Driver: Ta Smith ==========> Passenger: Diego Kertzmann Destination: Destination
 Lab5 compulsory output:  
 Person: 341
 Person: 351  
+
+Lab5 Homework output:  
+The commands are view/export/report.Enter command followed by args:   
+view homework.docx  
+The commands are view/export/report.Enter command followed by args:   
+report  
+The commands are view/export/report.Enter command followed by args:    
+export  
+The commands are view/export/report.Enter command followed by args:   
+exit  
+Exiting...  
+  
+
