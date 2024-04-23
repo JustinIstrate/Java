@@ -22,7 +22,9 @@ public class Player extends Thread {
     public int getPoints() {
         return points;
     }
-
+    public String getPlayerName() {
+        return name;
+    }
     @Override
     public void run() {
         try {
